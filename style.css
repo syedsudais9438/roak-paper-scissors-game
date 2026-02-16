@@ -179,3 +179,42 @@ img{
     100%{box-shadow: 0 0 5px red;}
 }
 
+/* 📱 Mobile Responsive Design */
+@media (max-width: 768px){
+
+    h1{
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+
+    .choices{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .choice{
+        width: 120px;
+        height: 120px;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .score-board{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+
+    #msg{
+        font-size: 1.2rem;
+        padding: 10px 15px;
+    }
+
+}
+
+
